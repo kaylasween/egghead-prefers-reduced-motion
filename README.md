@@ -1,4 +1,4 @@
-# This code relates with an Egghead video lesson!  
+# This code relates to an Egghead video lesson!  
 
 We have three animating sections: one in the header and one for each of the two images. To honor the system preferences of the user, we can use the prefers-reduced-motion media query to turn off those animations. In this example, we'll change the animation-duration of the stretch, spin, and bounce classes to 0.01ms. This will allow us to effectively remove the animations without disrupting any events that are watching for animationend. If you use the transition property, you could add transition-duration: 0.01ms to ensure the transitionend event isn't disrupted as well.
 
